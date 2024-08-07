@@ -1,0 +1,65 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.feature-card {
+        background: radial-gradient(circle, #ffffff, #8357ff);
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.number {
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: bold;
+}
+
+.feature-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 0 #3f3c3c, 
+    1px -1px 0 #3f3c3c,  
+    -1px 1px 0 #3f3c3c,  
+    1px 1px 0 #3f3c3c; 
+}
+
+.feature-description {
+    font-size: 16px;
+}
+
+.icon-1 {
+    background-image: url('icon-1.svg'); 
+}
+
+.icon-2 {
+    background-image: url('icon-2.svg'); 
+}
+
+.icon-3 {
+    background-image: url('icon-3.svg'); 
+}
+
+.icon-4 {
+    background-image: url('icon-4.svg'); 
+}
+
